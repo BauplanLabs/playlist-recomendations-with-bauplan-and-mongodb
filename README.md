@@ -6,6 +6,8 @@ This application is an embedding-based recommender system from music playlists, 
 
 We use the _Spotify Million Playlist Dataset_ (originally from [AI Crowd](https://www.aicrowd.com/)) - available as sample dataset in the [bauplan sandbox](https://www.bauplanlabs.com/#join).
 
+Make sure to check out the companion [blog post](https://www.bauplanlabs.com/blog/embedding-based-recommender-systems-with-bauplan-and-mongodb) for the full context on the use case and the tools behind the implementation!
+
 ## Overview
 
 Given sequences of music tracks - Spotify playlists -, we wish to learn an embedding for each track, and use these embeddings to recommend similar tracks using vector similarity at inference time. 
